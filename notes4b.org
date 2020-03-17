@@ -38,7 +38,7 @@
     aggregate demand curve.
   - Decide offering price (i.e. printing price, issue price).
 - Issuing new bonds have lower GCO costs than issuing new shares.
-* Slope of Individual and Aggregate Demand Curves
+* Book-Building: Slope of Individual and Aggregate Demand Curves
 ** Individual Demand Curve Slope
 - Information asymmetry and difficulty of valuing the common stock:
   the more severe info asymmtery, the steeper the slope.

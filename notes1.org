@@ -4,7 +4,6 @@
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="imagine.css" />
 #+OPTIONS: toc:nil html-style:nil
 * Goals of a corporation
-this is a test paragraph
 - Many stakeholders
 * Focus on stockholders
 - Maximise total value of company's common stock, which will in turn
