@@ -1,0 +1,134 @@
+#+Title: FINA 3070 Notes 4A
+#+Author: Ian Y.E. Pan
+#+Date: 2020
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="imagine.css" />
+#+OPTIONS: toc:nil html-style:nil
+* True value of a bond
+E.g. par = $100,000; maturity = 10 years; annual coupon 3%
+(i.e. $3,000).
+- True value = PAR(coupons) + PAH(par value)
+- We use YTM of bonds of same rating as our r. Suppose it's 10%.
+- $V = \sum_t \frac{3000}{(1.10)^t} + \frac{100,000}{(1.10)^{10}}
+  \approx$ $57K.
+- This is a "discount bond" because its true value $<$ par.
+- Suppose we have a higher annual coupon rate s.t. the true value $>$
+  par, then we have a "premium bond".
+* Valuation of common stock
+- Harder than valuation of bonds.
+- Uncertain dividends.
+- Hard to estimate "suitable discount rate".
+* Three Different types of traders
+- *Smart traders*: make use of public info (financial statements) to
+  estimate true value of shares. E.g. mutual fund managers.
+- *Noise traders*: only guessing. E.g. speculators.
+- *Insiders*: information asymmetry. E.g. CEO, managers of the firm.
+* Efficient-Market Hypothesis
+- Observed market price of a common stock reflects the relevant
+  information.
+- Smart traders matter; noise traders don't matter; insiders trade
+  infrequently.
+- Don't have to estimate true value by ourselves: the market prices
+  can already be trusted.
+** Three forms of market efficiency
+*** Semi-strong form
+- Prices reflect all publicly available info.
+- (Will be our focus of study.)
+*** Weak form
+- Prices reflect only a subset of public info. E.g. past trading information.
+*** Strong form
+- Prices reflect all info, including insider information.
+** School of Efficient Market v.s. School of Behavioural Finance
+- SEM believes that all bond (including investment-grade bonds and
+  junk bonds) and stock are efficient; SBF thinks that junk bonds and
+  common stocks are not efficient.
+- Most people regard investment-grade bonds are efficient -- very easy
+  to estimate true value. Almost strong-form efficient.
+- Junk bonds (risk of default) and common stocks have more severe info asymmetry.
+- Strong form doesn't hold for common stocks: empirical evidence shows
+  that insiders can indeed make abnormal profit, meaning that insider
+  info is not publicly available.
+** Information asymmetry: HK v.s. US
+- Definition: a manager knows the company better than smart traders do.
+- More severe in HK than US:
+  - Semi-annual financial report (HK) v.s. quarterly report (US).
+  - Less detailed/reliable financial statements (HK) v.s. more
+    detailed/reliable (US).
+** When noise traders cause mispricing
+- SEM: smart traders will use risky arbitrage to drive stock price
+  back to true value per share immediately, eliminating any further
+  profit opportunities.
+- Risky arbitrage: buy under-priced stock by using capital from
+  (short-)selling a "similar" fairly-priced stock; or buy
+  fairly-priced stock by using capital from (short-)selling a
+  "similar" over-priced stock.
+- SBF: risky arbitrage might be costly and slow-working -- noise
+  traders can cause mispricing/deviation of stock price from true
+  value (in the short run).
+** When new information comes in
+- Suppose the arrival of new information that positively affects true
+  value per share: smart analysts will compete and quickly buy the
+  stock they believe is under-priced due to the new info. This active
+  risky arbitrage will push price up till equilibrium.
+- Market shall reach equilibrium before daily close (sometimes even
+  just 1 hr after news arrival).
+*** Event study: a tool to test semi-strong EMH
+- Assess the impact of a specific event on a firm's stock price.
+- Abnormal return due to the event is estimated as the difference
+  between the stock's actual return and a proxy for the stock's return
+  in the absence of the event.
+  - The proxy is estimated by an index (e.g. Hang Seng Index).
+- Abnormal return = actual return $-$ normal return
+  - Normal return can be estimated as $\alpha + \beta r_m$, where
+    $\alpha$ and $\beta$ are estimated from the data of day -120 up to
+    day -20.
+  - $r_m$ is calculated as daily return, i.e. $\frac{\text{price
+    today}-\text{price yesterday}}{\text{price yesterday}}$.
+  - Hence, abnormal return = actual return $- (\alpha + \beta r_m)$
+**** Pattern of abnormal returns in "inefficient market"
+- See graph in Notes4A pp.18
+- It takes several days to go back to equilibrium -- market is slow to react.
+*** ACAR (Average Cumulative Abnormal Return)
+- Plot on Notes4A pp.20 has a high horizontal line after day 0,
+  because it's cumulative.
+**** Possible patterns of ACAR
+- Normal: significant jump on day 0 (when the info arrives), and
+  random prices changes (which is normal) afterwards:
+  - Semi-strong efficient.
+- Insider: if there's a jump before day 0 -- possible information
+  leakage:
+  - Evidence "against" strong form EMH.
+- If price adjust slowly (slow reaction until horizontal line) or
+  overreacts (overshoots) then corrects itself (drop back to high
+  horizontal line):
+  - Inefficient market.
+* Seen One Bond, Seen Them All
+- SEM and SBF both agree: no controversy.
+- Horizontal demand curve: a commodity (e.g. newspaper) with close substitutes.
+- Bonds with same rating are regarded by investors as close substitutes for one another.
+- If a bond's true value is constant (no coupon rate change, same bond
+  rating etc.), there will be horizontal demand curve even if the
+  supply Q increases (shown in Notes4A pp.30)
+- If Q's increase triggers P's decrease (s.t. P $<$ V), then risky
+  arbitrage will correct it almost immediately.
+* Seen One Stock, Seen Them All (controversial)
+- This is an assumption by SEM only.
+- The expected return of an individual stock can be "replicated" by a
+  portfolio of stocks (i.e. no stock is unique: different stocks are
+  close substitutes).
+- SEM: horizontal demand curve.
+- SBF: downward-sloping demand curve in the short run.
+* Semi-strong efficiency: HK vs. US
+- US stock market is more efficient than HK. China stock market is
+  even less efficient.
+- HK has more severe info asymmetry: harder to value a HK stock's true value.
+- Risky arbitrage less active in HK than in US.
+** Short-sales in "less allowed" in HK than in US
+- Short-selling is legal only for approx. half of the main-board
+  stocks in HK.
+- Even for stocks that can be short-sold, "free float" is small (for a
+  typical HK firm).
+  - Free float: number of shares outstanding that are "not" held by
+    controlling stockholders. Because those major stockholders don't
+    hold to trade/sell.
+  - Controlling stockers would obviously "not" lend shares for you to
+    short-sell.

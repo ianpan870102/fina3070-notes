@@ -1,0 +1,59 @@
+#+Title: FINA 3070 Notes 3B
+#+Author: Ian Y.E. Pan
+#+Date: 2020
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="imagine.css" />
+#+OPTIONS: toc:nil html-style:nil
+* r v.s. WACC
+- r = WACC if new project is 'similar' to 'existing' projects of the
+  firm. I.e. if new project's beta and financial leverage are similar
+  to the average of existing project's beta and financial leverage.
+** Betas & Operating Leverage
+- If new project's "asset beta" differs from existing project's "asset
+  beta": use formulae (later chapters) to calculate r.
+- Average existing project's equity beta = firm's common stock
+  beta. We can calculate average existing project's "asset beta" using
+  company's financial leverage and the formulae.
+- After we get average existing asset beta, we estimate new project's
+  "asset beta" by comparing new and exiting projects for:
+*** Cyclicality
+- the higher sensitivity of CF or revenue to the economy, the higher
+  the revenue beta. We should demand a higher rate of return from
+  investments whose performance is strongly tied to the performance of
+  the economy.
+*** Operating leverage
+- High operating leverage means: high fixed costs (e.g. property
+  taxes, contract worker wages) relative to variable costs (e.g. raw
+  materials, labour/maintenance cost).
+- CF = revenue $-$ fixed cost $-$ variable cost
+- PV(asset) = PV(revenue) $-$ PV(fixed cost) $-$ PV(variable cost)
+- By rearranging, we get PV(revenue) = PV(asset) + PV(fixed cost) + PV(variable cost)
+*** More on betas
+- Thus, the beta of PV(revenue) is just the weighted average of its 3
+  components:
+- $\beta_{\text{revenue}} = \beta_{\text{fixed cost}} \cdot
+  \dfrac{\text{PV(fixed cost)}}{\text{PV(revenue)}} +
+  \beta_{\text{variable cost}} \cdot \dfrac{\text{PV(variable
+  cost)}}{\text{PV(revenue)}} + \beta_{\text{asset}} \cdot
+  \dfrac{\text{PV(asset)}}{\text{PV(revenue)}}$
+- Debtholders receive fixed cost, and shareholders receive NCF (what's
+  left after payment of fixed cost).
+- We can assume that the beta of fixed-cost should be close to zero
+  (no risk for debtholders). We can also assume the that betas of the
+  revenues and variable costs should be approximately the same.
+- Therefore, we can rearrange and substitute and get: $\beta_{asset} =
+  \beta_{revenue} \cdot (1 + \dfrac{\text{PV(fixed
+  cost)}}{\text{PV(asset)}})$
+** Two Different Discount Rates
+- So far, we've used one r to discount net cash flows: so costs and
+  revenues are discounted with same rate.
+- But, if operating costs have lower systematic risk than revenues, we
+  should use 2 different r's.
+* Decision Trees
+- Previously, we assume we have same risk per year throughout
+  project's life. But the risk may vary 'within' a year. (A
+  time-varying discount rate.)
+- E.g. testing phase (high systematic + normal diversifiable risk, or
+  normal systematic + high diversifiable risk) followed by a normal
+  phase (normal systematic and diversifiable risk).
+- Good airplane example in lecture (fully understood, including options to
+  expand/abandon).

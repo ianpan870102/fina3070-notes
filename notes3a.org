@@ -1,0 +1,71 @@
+#+Title: FINA 3070 Notes 3A
+#+Author: Ian Y.E. Pan
+#+Date: 2020
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="imagine.css" />
+#+OPTIONS: toc:nil html-style:nil
+* Discount Rate: r
+** Use WACC
+- r = WACC (weighted average cost of capital), which in turn is calculated by $E(r_{debt})$ and $E(r_{equity})$.
+- Simple example: suppose firm's debt is 30% of firm's value at 7.5%
+  (lower risk) and equity is 70% of firm's value at 15%.
+  - Company cost of capital = 7.5 \times .3 + 15 \times .7 = 12.75%
+- $E(r_{debt})$ is observable.
+- But $E(r_{equity})$ (cost of equity) needs to be estimated -- the
+  hardest part of calculating WACC.
+*** The Company Cost of Capital
+- = Expected return of a portfolio of existing securities of that
+  company.
+- = the opportunity cost of capital for investment in the company's assets.
+- = the appropriate r for the company's average-risk projects.
+- Estimated as a "blend" of "cost of debt" (interest rate) and "cost
+  of equity" (expected rate of return demanded by investors in firm's
+  common stock).
+- If company has "no debt outstanding", then "company cost of capital"
+  = "expected rate of return on the company's stock".
+- E.g. suppose we know that a company's common stock has a beta of
+  value $\beta$:
+  - Company's $r = r_f + \beta(r_m - r_f)$
+*** When Project's Risk $\approx$ Equity-Market's Risk
+- Opportunity cost of capital.
+- Suppose $E(r_m)$ is the current expected annual return of the equity market.
+- If a new project's risk is similar to the stock market's average equity
+  risk, then its "annual discount rate" should equal $E(r_m)$.
+- We can estimate $E(r_m)$ using the current $r_f$ and historical
+  average of differences between $r_m$ and $r_f$, which is $(r_m-r_f)$.
+- I.e. $E(r_m) = r_f + E(r_m-r_f)$
+- $r_f$ is the YTM of 1-year T-bill, will be in daily news.
+- $E(r_m-r_f)$ is "market risk premium" (USA historically 7.7%).
+*** When project's risk $\neq$ equity-market's risk
+- We need a model to calculate project's suitable discount rate.
+- E.g. CAPM (used by large firms and investors), APT, Fama-French 3-factor model.
+* CAPM: Capital Asset Pricing Model
+** Overview
+- Risk: diversifiable risk and non-diversifiable (systematic) risk.
+- The higher the systematic risk, the higher the required (expected)
+  return.
+- Even if a stock/project is very risk, if most of the risk is
+  diversifiable, then it doesn't need a high discount rate.
+** Non-diversifiable risk: $\beta$
+- Systematic risk is the sensitivity towards change in macro-economy.
+- The market portfolio is represented, in practice, by the S&P 500.
+*** Understanding the scatter plots (Lec Ch7. p.13-15)
+- The slope is the estimated beta.
+- $R^2$ is the percentage of non-diversifiable risk in the total risk.
+  - E.g. p.13 Right figure. $R^2$ is 0.15, this means that 15% of the
+    total risk can be explained by market movement, while the rest 85%
+    was diversifiable.
+- The values in parentheses (under beta) are the standard errors of
+  each estimation, representing the possible mismeasurement.
+*** Beta formula for an example stock $i$
+- $\beta_i = \dfrac{\text{covariance of stock i's return with the
+  market return}}{\text{variance of the market return}} = \dfrac{\sigma_{i,m}}{\sigma_m^2}$.
+*** Using regression to find beta
+- $r_i (t) = \alpha + \beta_i r_m (t) + e_i (t)$
+** TODO SCL (Security Characteristic Lines) (pp.20)
+- Systematic (non-diversifiable) risk: explained by the SCL.
+- Firm-specific (diversifiable) risk: unexplained by the SCL.
+- $\sigma_i^2 = \beta_i^2 \cdot \sigma_m^2 + \sigma_{e_i}^2$
+- Total risk = Systematic risk + Firm-specific (diversifiable) risk.
+- R-square = $\dfrac{\text{systematic risk}}{\text{total risk}}$
+** TODO ANOVA (pp.26-)
+** TODO More on beta and r (last 10 pages)

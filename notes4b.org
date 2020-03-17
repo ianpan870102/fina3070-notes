@@ -1,0 +1,97 @@
+#+Title: FINA 3070 Notes 4B
+#+Author: Ian Y.E. Pan
+#+Date: 2020
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="imagine.css" />
+#+OPTIONS: toc:nil html-style:nil
+* When A (Listed) Company Needs New Capital
+- Increase in "retained earnings": without printing new bonds/shares,
+  a company can keep dividend constant when net income increases, or
+  even reduce dividend.
+- Raise new capital
+  - New borrowing
+    - Private loans: not to be traded (e.g. bank loans)
+    - Public bonds: tradeable (straight/simple bonds, convertible bonds)
+  - New shares
+    - Seasoned equity offering: already listed company
+    - P.s. unseasoned equity offering: IPO, i.e. private company
+      becomes public (listed) company
+* Debt Raising (Bond Issuing) By Listed Company
+** Private Placement (not our focus)
+- "Small" amount of borrowing from small number of "selected lenders".
+- Raise loans from "commercial banks", or "rich individuals /
+  institutional investors".
+  - Common in both HK and US.
+- Issue small number of bonds to investment banks to be resold to
+  their clients.
+  - Common in US, less common in HK.
+** GCO (General Cash Offer)
+- Issue "many" new bonds to the public.
+- Common in US, less common in HK.
+- Investment banks serve as "underwriters" (receive
+  spread/compensation from company).
+- Public announcement (optional: approval by special meeting of shareholders).
+- Book-building (demand book) by i-bank underwriters
+  - Invite many investors (small investors might not be invited).
+  - Road shows: presentation explaining characteristics of new bond
+    (share), e.g. coupon rate, YTM etc.
+  - Collect "individual demand curves of each investor" $\to$ get
+    aggregate demand curve.
+  - Decide offering price (i.e. printing price, issue price).
+- Issuing new bonds have lower GCO costs than issuing new shares.
+* Slope of Individual and Aggregate Demand Curves
+** Individual Demand Curve Slope
+- Information asymmetry and difficulty of valuing the common stock:
+  the more severe info asymmtery, the steeper the slope.
+- Investors that are more risk-aversed (or with more capital
+  constraint) have steeper slope. (Even if you lower the price, I'm
+  still only willing to buy a small quantity.)
+- Short sales contraints also steepen the slope.
+** Aggregate Demand Curve Slope
+- Horizontal summation of different investors' slopes. (see Notes4B pp.6)
+* Bond Rating
+** Seniority Declining
+- Bonds issued earlier (senior bonds) have less default risk than
+  junior bonds, which are issued more recently. Reason: Suppose for a
+  specific the cash flow of a company is low, the senior bond-holders
+  will receive their payments first.
+- Senior bonds have higher bond rating (e.g. AAA) than junior bonds
+  (e.g. A).
+- Subscribers (investors) of the latest batch are
+  'indifferent'. Because they pay a fair price (AA-grade price for
+  AA-grade price bond).
+- Seniority declining is more common, as early investors will demand
+  this as a protection (to avoid being hurt later). Therefore, the
+  outstanding bonds' price usually doesn't change even if new bonds
+  are issued.
+- However, the market price of the original batch (senior bonds) might
+  still change (not because of the new bond issues, but because of the
+  company's future performance).
+** If No Seniority Declining (Notes4B pp.12)
+- The company is 'happy' (more borrowing value with AA-grade price;
+  calculate rectangle area).
+- The earlier shareholders are 'unhappy' (suffer capital loss).
+- Subscribers (investors) of the latest batch are
+  'indifferent'. Because they pay a fair price (AA-grade price for
+  AA-grade price bond).
+** Misc.
+- If a firm issues more 'straight' bonds, the stock price usually
+  doesn't change.
+- Thus, raising new capital is considered 'neutral news'.
+* Equity Raising (Stock Issuing) By Listed Company
+** Placing / Private Placement
+- A small number of new shares to a small number of big investors.
+- Common in HK, less common in US.
+** GCO
+- Lots of new shares to the public, through i-banks.
+- Common only in US.
+** Rights Offering
+- Lots of new shares issued on a 'pro rata (proportional) basis' to
+  'current' stockholders. (E.g. a current stockholder holding 1% of
+  existing shares will subscribe to 1% of the newly shares to be
+  issued.)
+  - Current stockholders can also choose to 'give up' such right.
+- The percentage ownership won't be affected by the newly issued
+  stocks: important for closesly-held companies (e.g. in HK, UK,
+  Europe).
+- No book-building necessary (the demand is fixed proportionally
+  anyways.)

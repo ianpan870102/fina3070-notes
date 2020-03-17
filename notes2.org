@@ -1,0 +1,44 @@
+#+Title: FINA 3070 Notes 2
+#+Author: Ian Y.E. Pan
+#+Date: 2020
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="imagine.css" />
+#+OPTIONS: toc:nil html-style:nil
+* PV vs. NPV
+** PV
+- Expected cash flows in the future.
+- Value of a new project.
+- Calculated using Weighted Average Cost of Capital (WACC)
+** NPV
+- Value of a new project 'minus' the 'initial cost' or cash outflow.
+- NPV is PV minus initial cost.
+- The company needs to forecast the project's cash flows and discount
+  them at the opportunity cost of capital to arrive at the project's
+  NPV.
+- A project with a positive NPV increases shareholder value.
+- Financing costs (interest payment, repayment of principle,
+  dividends) and tax shields from interest are automatically
+  considered when we discount the cash flows with discount rate.
+- $NPV = \sum \dfrac{C_t}{(1 + r_t)^t}$
+- , where $C$ (including initial negative $C_0$) is cash flow and
+  $r_t$ is annual discount rate (in this chapter the discount rate is
+  constant).
+* Operating cash flow vs. Net cash flow
+- Net cash flow = Operating cash flow $-$ after-tax asset purchase +
+  after-tax asset disposal $-$ change in net working captial.
+  - where after-tax asset purchase and after-tax asset disposal is
+    often grouped into the same section (net capital spending).
+  - Operatinng cash flow is calculated as EBIT + depreciation $-$ taxes.
+* Sales vs. EBIT (Pre-tax profit) vs. Operating cash flow
+- EBIT = Sales $-$ operating costs (including depreciation, calculated
+  according to tax law).
+- Tax on operations = EBIT \times tax rate.
+- Operating cash flow = EBIT $-$ tax on operations + depreciation
+  - We add back depreciation to calculate cash flows.
+  - Fixed asset purchase is cash outflow.
+  - After-tax cash flow from disposal of asset at project end =
+    (expected salvage value of used asset) $-$ (tax rate \times
+    (expected salvage value $-$ book value))
+    - Book value = initial cost $-$ accumulated depreciation
+    - We expect tax refund if expected salvage value is less than book value.
+* Footnote
+Check out the example in Homework1 Q1 along with the Excel spreadsheet.
