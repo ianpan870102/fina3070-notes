@@ -6,7 +6,7 @@
 * True value of a bond
 E.g. par = $100,000; maturity = 10 years; annual coupon 3%
 (i.e. $3,000).
-- True value = PAR(coupons) + PAH(par value)
+- True value = PV(coupons) + PV(par value)
 - We use YTM of bonds of same rating as our r. Suppose it's 10%.
 - $V = \sum_t \frac{3000}{(1.10)^t} + \frac{100,000}{(1.10)^{10}}
   \approx$ $57K.

@@ -3,7 +3,7 @@
 #+Date: 2020
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="imagine.css" />
 #+OPTIONS: toc:nil html-style:nil
-* When A (Listed) Company Needs New Capital
+* When a (Listed) Company Needs New Capital
 - Increase in "retained earnings": without printing new bonds/shares,
   a company can keep dividend constant when net income increases, or
   even reduce dividend.
@@ -95,3 +95,138 @@
   Europe).
 - No book-building necessary (the demand is fixed proportionally
   anyways.)
+- One underwriter to subscribe to the shares given up by shareholders.
+* Private Placement
+** HK vs US
+- The big investors & offering price (P_{issue}) are decided by a
+  process of 'book-building'.
+  - Likely in HK and US.
+- The big investors are already selected by the company (e.g. close
+  friends of controlling stockholder) with a much lower $P_{issue}$.
+  - Possible in HK.
+** How V may change
+- Suppose $V_0$ and $P_0$ stand for the true value and market price
+  of a stock before a private placement issue, and $V_1$ and $P_1$
+  stand for the value and price afterwards.
+- $V_0 = P_0$ and $V_1 = P_1$.
+- True value ($V_1$) might change after the news of private placment issue.
+*** Private placement as a good news
+- If the big investor is knowledgeable and famous, e.g. Warren Buffet.
+- If the 'issue price discount' is 'small' (the investor only asks for
+  a small price discount). I.e. $P_{issue}$ is only a bit below $P_0$.
+  - Probably because the investor has some insider info, e.g. factory visit.
+- $P_1=V_1 > P_0=V_0$
+*** Private placement as a bad news
+- If the 'issue price discount' is big. I.e. $P_{issue}$ is way below $P_0$.
+- $P_1=V_1 < P_0=V_0$
+- A possible scenario in HK:
+  - E.g. the investor is a close friend of the controlling
+    stockholder, and receives the benefit of a big price discount --
+    bad news for corporate governance; hurts other stockholders.
+* GCO: General Cash Offer
+- Stock price usually 'drops' on the (equity) GCO announcement: the
+  stock demand curve 'shifts' down (slope unchanged).
+  day. However, as previously mentioned, there's no price drop if it's
+  straight-bond GCO.
+  - 'Capital raising' itself is neutral news. It's 'printing new
+    shares' that has an averse effect on stock price.
+- Aggregate demand curve is (almost) horizontal: because there's a lot
+  of investors to be horizontally summed.
+** EPS (Earning Per Share) Dilution (value reduction): An Incorrect Concept
+- Intuitively, people may think that EPS will drop after issuing new
+  shares, consequently leading to a drop of stock market price P.
+- In reality, share price "may or may not" change -- it depends on the
+  EPS expected by the market:
+  - Expected EPS will actually increase if the market believes that
+    new shares are used for +NPV projects, because earnings may go
+    up. (Similarly, EPS will drop if market believes the project is
+    -NPV).
+** Information asymmetry scenarios
+*** Stock market timing
+- Suppose the company needs new long-term capital. Will it choose to
+  issue new shares GCO or new bonds GCO?
+- It depends on the timing!
+  - If the market stock price is lower than manager's insider true
+    value estimation: it's better to issue new bonds.
+  - If the market stock price is higher than manager's insider true
+    value estimation: then of course it's better for the company to
+    issue new shares.
+- Therefore, the share price will drop on the announcement of new
+  shares GCO -- the public now knows that the market stock price is
+  higher than true value.
+- So technically, the manager doesn't have that much of an advantage
+  with insider info.
+*** New capital as working capital or to finance +NPV projects
+- If the new capital needed by the company is for working capital
+  (i.e. to keep the business running):
+  - Issue new shares; avoid extra coupon burden.
+- If the new capital is for financing +NPV projects:
+  - Either new shares or bonds are fine.
+** How much is the value drop upon shares GCO announcement?
+- The amount of value drop depends on "how severe the info asymmetry" is.
+- In US, on average:
+  - 3% for industrial companies (more fluctuating profits)
+  - 0.9% for utilities companies: e.g. electricity,
+    energy. (Regulated, less info asymmetry)
+- If HK allows shares GCO, the price drop should be even bigger -- HK
+  has more severe info asymmetry
+* Rights Offering
+** Quick Review...
+- Lots of new shares issued on 'pro rata basis': percentage
+  ownership remain constant.
+- Current stockholders can also choose to 'give up' such right.
+- Common in HK & Europe because of closely-held companies. (Not
+  common in US.)
+- No book-building necessary.
+- One underwriter to subscribe to the shares given up by shareholders.
+** Two type of rights offering
+1. "Rights issue" with rights market: stockholder can sell rights, in
+   addition to exercising or giving up.
+2. "Open offer" without rights market: stockholder can only either
+   exercise or give up.
+** Timeline & rundown
+- Announcement fo rights offering + shareholders' special meeting
+- Ex-rights day (ca. 1 month after announcement)
+  - Price before rights offering: $P_c$ cum-rights shares.
+  - Price after rights offering: $P_e$ ex-rights shares.
+- Rights market begin till end (< 2-week duration)
+- Closing date for exercising rights (ca. 2 months after announcement)
+  - [def] exercising rights: sending the rights to the company, paying
+    the exercise price, and receiving new shares.
+** $P_e$ Calculation: Ex-rights adjustment in stock price
+*** Method 1. Textbook approach
+- Given rights issue ratio (e.g. 1-to-8), $P_c$ cum-rights price, and
+  exercise price (i.e. offer price, issue price, subscription
+  price). Find $P_e$ ex-rights share price (i.e. fair value of share
+  on ex-rights day).
+- Calculation rationale: An investor has one of two ways to own 9
+  shares, and they should have the same cost.
+  - Method 1: Buy 8 cum-rights shares (becoming a 'current investor'
+    with rights) and subscribe 1 new share by exercising right = $8
+    \cdot P_c + \text{exercise price}$
+  - Method 2: Buy 9 ex-right shares = $9 \cdot P_e$
+  - In an efficient market, the two methods must have "same cost".
+  - Therefore, $P_e = \dfrac{8 \cdot P_c + \text{exercise price}}{9}$
+*** Method 2. Balance-sheet approach
+- Assume the same ratio, cum-rights price etc. from the example above,
+  plus the following data:
+  - Original num of shares outstanding = 8M
+- Our deduction:
+  1) Original total market value of equity = 8M $\cdot P_c$
+  2) Proceeds from new rights shares = 1M $\cdot P_e$
+  3) Final total market value of equity = $8M \cdot P_c + 1M \cdot P_e$
+  4) Final num of shares outstanding = 9M
+  5) Ex-rights price $P_e =$ (3.) / (4.) $= \dfrac{8M \cdot P_c + 1M
+     \cdot P_e}{9M}$
+** Value of a right
+- Now that we have $P_e$ (ex-rights stock price), the value of a right
+  = $P_e -$ exercise price.
+- Alternatively, value of a right = $(P_c - P_e) \cdot 8$
+** Two scenarios of ignoring a right
+*** Possible in HK:
+- Simply ignore, receive no extra cash payment.
+*** In UK (Europe):
+- Motivation: to protect shareholders with rights but plans to ignore.
+- The ignored shares will be placed to a "new shareholder", who will
+  pay the "value of the ignored right" to the original shareholder
+  with rights.
