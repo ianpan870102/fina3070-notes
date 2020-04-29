@@ -4,11 +4,12 @@
 
 /* Variables. Feel free to edit these! */
 :root {
-  --color-primary: #ee6e73;
-  --color-secondary: #ee6e73;
-  --color-soft-white: #fffff0;
-  --color-soft-black: #34495e;
-  --color-hard-black: #ee6e73;
+  --color-primary:      #ee6e73;
+  --color-secondary:    #ee6e73;
+  --color-hard-black:   #ee6e73;
+  --color-background:   #1e1e1e;
+  --color-foreground:   #dddddd;
+  --color-soft-white:   #1e1e1e;
   --color-special-todo: #790604;
 
   --font-normal: 'Source Sans Pro';
@@ -27,7 +28,8 @@
 /* Remove outer padding */
 html,
 body {
-  color: var(--color-soft-black);
+  background-color: var(--color-background);
+  color: var(--color-foreground);
   margin: 20px;
 }
 
@@ -73,7 +75,7 @@ ol,
 ul,
 table,
 code {
-  color: var(--color-soft-black);
+  color: var(--color-foreground);
   font-size: var(--font-size-4);
   font-family: var(--font-normal);
 }
