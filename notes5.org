@@ -1,0 +1,109 @@
+#+Title: FINA 3070 Notes 5
+#+Author: Ian Y.E. Pan
+#+Date: 2020
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="imagine.css" />
+#+OPTIONS: toc:nil html-style:nil
+* Dividend Policy in perfect market
+** How much to pay?
+- Residual (leftover) dividend policy
+*** Example
+- Need 5 mil for new projects (+NPV).
+- Cap. stucture: dept/equity = 2/3 (ratio)
+- Net income: 4 mil.
+- *How to calculate dividend?*
+  1. 40% project to be financed with new debt (bond): 2 mil
+  2. 60% project to be financed with new equity: 3 mil
+  3. Net income - equity needed = 1 mil: that's the amount to be
+     paid out as dividend, or stock repurchase.
+** How to pay?
+- Cash dividend v.s. stock repurchase
+* Cash Dividend v.s. Stock Repurchase
+** Cash Dividend
+- Important: Stock prices drops after ex-dividend date ($P_c > P_e$)!
+- Ex-dividend date:
+  - Cum-dividend stock price $P_c$ $>$ ex-dividend stock price $P_e$
+  - Ex-dividend investors pay less for their stock, but can't receive
+    dividends.
+- Dividend per share (DPS): $P_c - P_e$
+  - also equals: $\frac{\text{total dividend to be paid
+    out}}{\text{no. of outstanding shares}}$
+- Other numbers:
+  - Total market cap. = Asset - liab.
+  - $P_c = \frac{\text{Total market cap.}}{\text{no. of outstanding
+    shares}}$
+** Stock Repurchase
+- Important: Stock price remains same after repurchase.
+- If perfect market:
+  - symmetric info
+  - stock repurchase price $=$ normal price ($P_c$ in cash dividend scenario)
+    - Because *both* the total market cap. (i.e. asset - liab.) and
+      no. of outstanding shares decreases.
+- About the investors who chose to sell back to company:
+  - Indifferent about the action (because price is fair)
+  - Motivation: need to liquidate, maybe for own cash use (pay kids'
+    tuition fee).
+  - Percentage ownership drops.
+** Graph comparision on Notes5 pp.14
+- Important: 2 rectangles (market cap. after payout) have same area!
+  - Because both mechanisms pay out same amount of cash (which is the
+    area of pp.12 minus pp.14)
+- Cash dividend:
+  - quantity (no. of shares outstanding) doesn't change
+  - price drops
+- Stock repurchase:
+  - price doesn't change
+  - quantity (no. of shares outstanding) drops
+** More comparison
+- Between the 2 mechanisms, the business itself (its beta) and
+  $E(r_e)$ remains constant.
+- Where's the difference? The dividend yield vs. cap. gains yield
+  tradeoff
+- $E(r_e) = \frac{D_1}{P_0} + g$, where
+  - $\frac{D_1}{P_0}$ is the dividend yield
+    - In cash dividend mechanism: positive $=E(r_e)$
+    - In stock repurchase mechanism: zero ($D_0 =0$)
+  - $g$ is dividend growth rate $=$ cap. gains (constant growth)
+    - In cash dividend mechanism: smaller (obviously, cap. gains is
+      smaller, because every ex-dividend date the price will drop)
+    - In stock repurchase mechanism: positive $= E(r_e)$
+- Investors should be *indifferent* between the 2 mechanisms, because
+  $E(r_e)$ is the same anyways. Only difference is the tradeoff of
+  dividend yield vs. cap. gains yield (divident growth).
+** Conclusion
+- If perfect market, dividend policy is irrelevant: choosing either
+  doesn't matter.
+** Taxes of dividends & cap. gain
+- Question: Is the formula $P_c - P_e =$ dividend (D) correct?
+  - Yes in HK, where tax of cap. gain ($t_{cg}$) $=$ tax of
+    dividend ($t_d$) $= 0$.
+  - No in USA, where $t_{cg} < t_d$
+    - We need this formula: $(P_c - P_e) \cdot (1-t_{cg}) = D (1-t_d)$
+*** HK & US preferences
+- US: Recently (esp. after 1983 when law relaxes), stock repurchases
+  in US have grown popular.
+  - Main reason: **tax advantages**. Companies want to make
+    shareholders happy, since $t_{cg} < t_d$.
+  - Remember that stock repurchases yield higher cap. gain.
+- HK: Cash dividend is more popular because the stock repurchase
+  mechanism can be quite cumbersome.
+*** Bush 2003, Obama 2013, & Trump 2018
+- In 2003, President Bush reduced max $t_d$ to be 15% (same as max
+  $t_{cg}$, which has long been 15%).
+- Microsoft starts to pay cash dividends (for the first time in
+  history).
+- *However*, $t_{cg}$ still has an advantage over $t_d$!
+- *This is due to the timing of when the taxes are paid, $PV(t_{cg})$
+  is still smaller than $PV(t_d)$*.
+- In 2013, Obama raised both max $t_d$ and max $t_{cg}$ from 15% to
+  23.8%.
+- In 2018, Trump reduced corporate tax rate & individual ordinary
+  income tax rate. (max $t_d$ & max $t_{cg}$ remain 23.8%)
+** Why do companies still pay some dividends? Why not always stock repurchase?
+- Dividends (regular) are more like promises, and are generally more
+  stable than stock repurchases (irregular).
+- *Some investors* (high-income ones) prefer growth stocks (big
+  cap. gain (dividend growth), less cash dividends)
+  - They don't want to pay high tax of div.
+- *Other investors* (lower-income ones, retirees, pension funds, or
+  tax-exempt investors) prefer income stocks (high div. payout)
+*** TODO Where I left off: XXX Part 2
