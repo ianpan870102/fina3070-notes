@@ -1,0 +1,12 @@
+#+Title: FINA 3070 Notes 6A
+#+Author: Ian Y.E. Pan
+#+Date: 2020
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="imagine.css" />
+#+OPTIONS: toc:nil html-style:nil
+* The need of new capital
+- Recall from Notes 4B, if a firm needs more capital, it can:
+  1. Increase retained earnings: reduce div., or keep div. constant
+     even when net income increased.
+  2. New borrowing: private loans (bank loans), public bonds
+     (straight, convertible)
+  3. New shares: seasoned equity offering

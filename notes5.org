@@ -8,7 +8,7 @@
 - Residual (leftover) dividend policy
 *** Example
 - Need 5 mil for new projects (+NPV).
-- Cap. stucture: dept/equity = 2/3 (ratio)
+- Cap. structure: dept/equity = 2/3 (ratio)
 - Net income: 4 mil.
 - *How to calculate dividend?*
   1. 40% project to be financed with new debt (bond): 2 mil
@@ -43,7 +43,7 @@
   - Motivation: need to liquidate, maybe for own cash use (pay kids'
     tuition fee).
   - Percentage ownership drops.
-** Graph comparision on Notes5 pp.14
+** Graph comparison on Notes5 pp.14
 - Important: 2 rectangles (market cap. after payout) have same area!
   - Because both mechanisms pay out same amount of cash (which is the
     area of pp.12 minus pp.14)
@@ -57,7 +57,7 @@
 - Between the 2 mechanisms, the business itself (its beta) and
   $E(r_e)$ remains constant.
 - Where's the difference? The dividend yield vs. cap. gains yield
-  tradeoff
+  trade-off
 - $E(r_e) = \frac{D_1}{P_0} + g$, where
   - $\frac{D_1}{P_0}$ is the dividend yield
     - In cash dividend mechanism: positive $=E(r_e)$
@@ -67,8 +67,8 @@
       smaller, because every ex-dividend date the price will drop)
     - In stock repurchase mechanism: positive $= E(r_e)$
 - Investors should be *indifferent* between the 2 mechanisms, because
-  $E(r_e)$ is the same anyways. Only difference is the tradeoff of
-  dividend yield vs. cap. gains yield (divident growth).
+  $E(r_e)$ is the same anyways. Only difference is the trade-off of
+  dividend yield vs. cap. gains yield (dividend growth).
 ** Conclusion
 - If perfect market, dividend policy is irrelevant: choosing either
   doesn't matter.
@@ -106,4 +106,31 @@
   - They don't want to pay high tax of div.
 - *Other investors* (lower-income ones, retirees, pension funds, or
   tax-exempt investors) prefer income stocks (high div. payout)
-*** TODO Where I left off: XXX Part 2
+** Compromise dividend policy
+- Residual dividend policy is for long-term (to determine long-term
+  regular div. payout ratio)
+  - Because short-term time-varying dividends might disturb clientele
+    and have misleading signals.
+- In short-term, we need "compromise dividend policy".
+  - Company can borrow cash to pay out div. (not too often though,
+    obviously.)
+*** Order of importance (lower goals can deviate)
+- Avoid cutting back on +NPV projects
+- Avoid cuts in regular div. (DPS: div. per share)
+- Avoid issuing new equity
+- Maintain debt/equity ratio
+- Maintain div. payout ratio
+*** Industry life cycle
+- Newly listed company should have zero or low regular dividend.
+- The more mature it gets, it can start to increase regular dividend.
+** More on Stock Repurchases
+- The following applies for the US.
+- Announcement of stock repurchase results in stock price increase (2%
+  CAR, cumulative abnormal return)
+- Tender offer (special stock repurchase): company announces to
+  repurchase at 20% premium stock price. However, we observe only 11%
+  stock price increase, why?
+  1. Why not 2%? Well, because 20% is a lot above 2%.
+  2. Why not 20% to "fix arbitrage" (buy at 11% and sell at 20%)?
+     Because it's not real arbitrage since the tender offer quantity
+     is actually pretty low.
