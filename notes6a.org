@@ -38,6 +38,7 @@
   $\frac{T_c \cdot D \cdot r_D}{r_D} = T_c \cdot D$
 - Leveraged firm will have higher value than unleveraged firm
   - $V_L = V_U + T_c \cdot D$
+- In reality, tax shield is limited by EBIT.
 *** Equity's decrease v.s. Debt's increase
 - If tax rate T_c = 0:
   - E's decrease = D's increase
@@ -51,13 +52,27 @@
   tax calculation, then company enjoys no more tax shield: E's
   decrease and D's increase will be the same, thus share prices
   remains same.
-*** With & Without personal taxes
+*** Without v.s. With personal taxes
 - The tax rates are different for different countries.
-- Without personal taxes:
-  - $V_U = \frac{E(EBIT) \cdot (1-T_c)}{r_a}$
-  - $V_L = V_U + (1 - T_c) \cdot D$
-- With personal taxes:
+- Notations:
+  - $V_U$: value of an unleveraged firm
+  - $V_L$: value of an leveraged firm
   - $T_{PE}$: personal tax for equity income
   - $T_{PD}$: personal tax for debt income (interest)
+- Without personal taxes (HK):
+  - $V_U = \frac{E(EBIT) \cdot (1-T_c)}{r_a}$
+  - $V_L = V_U + (1 - T_c) \cdot D$
+- With personal taxes (US):
   - $V_U = \frac{E(EBIT) \cdot (1-T_c)(1-T_{PE})}{r_a}$
   - $V_L = V_U + (1- \frac{(1 - T_c)(1-T_{PE})}{(1-T_{PD})}) \cdot D$
+*** Two opposing forces
+- 1. Corporate tax shield encourages debt financing (leverage)
+- 2. Usually $T_{PD} > T_{PE}$, i.e. interest income tax rate $>$
+  cap. gains tax rate.
+  - According to the formula above, this will offset the financial
+    leverage gain.
+- Therefore, combining the two opposing forces, we have:
+  - $0 <$ financial leverage gain $< T_C \cdot D$
+*** Trump's 2018 tax changes (Notes 6A pp.31) leads to:
+- Stock index increase
+- Smaller leverage advantage $\to$ less borrowing
