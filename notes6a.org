@@ -4,9 +4,60 @@
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="imagine.css" />
 #+OPTIONS: toc:nil html-style:nil
 * The need of new capital
-- Recall from Notes 4B, if a firm needs more capital, it can:
+- Recall from Notes 4B, if a firm needs more capital, it can (ranked
+  by level of *importance* (in the US)):
   1. Increase retained earnings: reduce div., or keep div. constant
      even when net income increased.
   2. New borrowing: private loans (bank loans), public bonds
      (straight, convertible)
   3. New shares: seasoned equity offering
+* Capital Structure: 3 Schools of Thought
+1. Trade-off theory (strong form)
+2. Pecking Order Theory (semi-strong form)
+3. Stock market timing (semi-strong inefficient)
+** Trade-off Theory
+- Assumes perfect market: strong form, **no tax**, no transaction cost
+- Assumes zero-growth firm
+  - dividend = net income
+  - net cap. spending = depreciation
+- Value of the firm is determined only by assets (PV, future cash
+  flows), not capital structure (D/E).
+  - $r_a$ is same for unleveraged firm (equity only) and leveraged
+    firm (debt + equity). P.s. more leverage means more debt (higher
+    D/E ratio).
+  - $r_a = r_f + \beta_a(r_M - r_f)$
+*** Interest Tax Shield (no longer perfect market assumption)
+- Logic: If a company has some debt (i.e. needs to pay annual
+  interest), the interest is deducted from EBIT, resulting in a
+  smaller pretax income, which means less tax to pay.
+- Annual tax shield $= T_c \cdot D \cdot r_D$, where T_c is the
+  corporate tax rate, and D is the total outstanding debt, and r_D is
+  the interest rate. $D \cdot r_D$ together is the annual interest
+  expense of the firm.
+- Assuming zero-growth firm, the PV of future tax shields is
+  $\frac{T_c \cdot D \cdot r_D}{r_D} = T_c \cdot D$
+- Leveraged firm will have higher value than unleveraged firm
+  - $V_L = V_U + T_c \cdot D$
+*** Equity's decrease v.s. Debt's increase
+- If tax rate T_c = 0:
+  - E's decrease = D's increase
+  - No. of outstanding shares decreases
+  - Share price remains same.
+- If tax rate T_c > 0:
+  - E's decrease < D's increase
+  - No. of outstanding shares decreases
+  - Share price increases (due to present value of tax shield)
+- However, if debt interest payout were *not* regarded as expenses for
+  tax calculation, then company enjoys no more tax shield: E's
+  decrease and D's increase will be the same, thus share prices
+  remains same.
+*** With & Without personal taxes
+- The tax rates are different for different countries.
+- Without personal taxes:
+  - $V_U = \frac{E(EBIT) \cdot (1-T_c)}{r_a}$
+  - $V_L = V_U + (1 - T_c) \cdot D$
+- With personal taxes:
+  - $T_{PE}$: personal tax for equity income
+  - $T_{PD}$: personal tax for debt income (interest)
+  - $V_U = \frac{E(EBIT) \cdot (1-T_c)(1-T_{PE})}{r_a}$
+  - $V_L = V_U + (1- \frac{(1 - T_c)(1-T_{PE})}{(1-T_{PD})}) \cdot D$
