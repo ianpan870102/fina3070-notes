@@ -12,10 +12,10 @@
      (straight, convertible)
   3. New shares: seasoned equity offering
 * Capital Structure: 3 Schools of Thought
-1. Trade-off theory (strong form)
+1. Trade-off Theory (strong form)
 2. Pecking Order Theory (semi-strong form)
-3. Stock market timing (semi-strong inefficient)
-** Trade-off Theory
+3. Stock Market Timing Theory (semi-strong inefficient)
+* Trade-off Theory
 - Assumes perfect market: strong form, **no tax**, no transaction cost
 - Assumes zero-growth firm
   - dividend = net income
@@ -26,7 +26,7 @@
     firm (debt + equity). P.s. more leverage means more debt (higher
     D/E ratio).
   - $r_a = r_f + \beta_a(r_M - r_f)$
-*** Interest Tax Shield (no longer perfect market assumption)
+** Interest Tax Shield (no longer perfect market assumption)
 - Logic: If a company has some debt (i.e. needs to pay annual
   interest), the interest is deducted from EBIT, resulting in a
   smaller pretax income, which means less tax to pay.
@@ -39,7 +39,7 @@
 - Leveraged firm will have higher value than unleveraged firm
   - $V_L = V_U + T_c \cdot D$
 - In reality, tax shield is limited by EBIT.
-*** Equity's decrease v.s. Debt's increase
+** Equity's decrease v.s. Debt's increase
 - If tax rate T_c = 0:
   - E's decrease = D's increase
   - No. of outstanding shares decreases
@@ -52,7 +52,7 @@
   tax calculation, then company enjoys no more tax shield: E's
   decrease and D's increase will be the same, thus share prices
   remains same.
-*** Without v.s. With personal taxes
+** Without v.s. With personal taxes
 - The tax rates are different for different countries.
 - Notations:
   - $V_U$: value of an unleveraged firm
@@ -65,7 +65,7 @@
 - With personal taxes (US):
   - $V_U = \frac{E(EBIT) \cdot (1-T_c)(1-T_{PE})}{r_a}$
   - $V_L = V_U + (1- \frac{(1 - T_c)(1-T_{PE})}{(1-T_{PD})}) \cdot D$
-*** Two opposing forces
+** Two opposing forces
 - 1. Corporate tax shield encourages debt financing (leverage)
 - 2. Usually $T_{PD} > T_{PE}$, i.e. interest income tax rate $>$
   cap. gains tax rate.
@@ -73,6 +73,22 @@
     leverage gain.
 - Therefore, combining the two opposing forces, we have:
   - $0 <$ financial leverage gain $< T_C \cdot D$
-*** Trump's 2018 tax changes (Notes 6A pp.31) leads to:
+** Trump's 2018 tax changes (Notes 6A pp.31) leads to:
 - Stock index increase
 - Smaller leverage advantage $\to$ less borrowing
+** Agency problem of debt
+*** Cause
+- In a normal healthy firm, we accept projects that has "expected
+  +NPV", and reject overly risky projects.
+- However, *shareholders* in a distressed firm might prefer risky
+  projects (-NPV), as this is the only way they "might" get
+  paid. Recall that bond holders (creditors) also has higher priority.
+  - This makes the bond holders unhappy, since the shareholders are
+    essentially "gambling at the expense of lenders".
+*** Solution
+- When debt ratios rise, lenders can protect themselves against such
+  gambles by imposing more "covenants" (= agreements).
+- However, such covenants might cause constraints and inefficiencies.
+*** Conclusion
+- Such agency problems lead to "deadweight loss" in $V_L$ (leveraged
+  firm).

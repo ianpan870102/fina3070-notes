@@ -1,0 +1,72 @@
+#+Title: FINA 3070 Notes 6B
+#+Author: Ian Y.E. Pan
+#+Date: 2020
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="imagine.css" />
+#+OPTIONS: toc:nil html-style:nil
+* Trade-off Theory (continued)
+- The *trade-off*: capital stucture; trade-off between tax shields &
+  costs of financial distress.
+- "Optimal debt ratio" varies from firm to firm:
+  - Firms with *high EBIT* have *higher* optimal debt ratio; *later*
+    turning point (Notes6B pp. 3); can enjoy *more tax shield*.
+  - More tangible assets/collateral $\to$ low agency costs of debt,
+    low bankraptcy costs, because lenders have more trust $\to$ also
+    lead to *higher* optimal debt ratio.
+- Since we assume strong-form efficiency, printing new shares (GCO)
+  will not lead to price drop.
+  - Contradicts the next 2 theories (pecking order theory & stock
+    market timing theory).
+** Empirical findings
+*** Agreement & consistency with trade-off theory
+- Airlines and utilities companies (more tangible assets,
+  e.g. airplanes) indeed borrow more heavily (more debt).
+- High-tech firms (risky intangible assets) use little debt.
+- Firms react to credit rating
+  - reduce leverage to save rating, by issuing new shares,
+    constraining div., or selling assets (to pay creditors).
+*** Contradictions to trade-off theory
+- Most profitable companies often borrow the least!
+  - P.s. this is consistent with Pecking order theory, our next topic.
+* Pecking Order Theory
+- Recall that on GCO announcment, the demand curve will shift down
+  (stock price drops), due to info asymmetry (which will not happen in
+  strong-form efficient market).
+- *The Pecking Order* (applies to the US):
+  1. internal equity first (no transaction costs of printing new shares)
+  2. then straight bonds (no price drop).
+  3. then convertible bonds (mild price drop).
+  4. finally issue new shares (only when debt capacity is used up)
+- Companies avoid GCO due to price drop on announcement.
+  - The next theory (stock market timing) will contradict this.
+** Empirical findings
+- Pecking order solves the contradiction to
+  trade-off theory, "Most profitable companies often borrow the
+  least!"
+  - Reasoning: Firms with smaller EBIT (less profitable) have *less
+    internal equity*, hence need to borrow more.
+** Differences to trade-off theory
+- Unlike Trade-off, Pecking doesn't have well-defined target D/E
+  ratio, and does not consider trade-off between tax shield and
+  financial distress.
+- Unlike Trade-off, Pecking divides equity into 2 kinds: internal and
+  external.
+- Pecking cannot explain the "tangible assets phenomenon"
+  (e.g. airlines borrow more, tech companies borrow less etc.)
+- Each theory can explain parts of the real world; neither is perfect
+* Stock Market Timing Theory
+- Semi-strong *inefficient*.
+- In a bull market, the average price drop (3%) on GCO announcment is
+  too small $\to$ value re-estimated by the market on GCO announcment
+  is higher than actual true value, i.e. the market is
+  optimistic. (negative abnormal return in the long run)
+  - Encourages company to issue new shares via GCO.
+- Empirical evidence:
+  - Stock issues (GCO) concentrate in bull markets; share repurchases
+    concetrate in bear markets.
+* Comparing The Three School of Thoughts
+- Regarding changes in capital structure in the short run:
+  - Usual times: pecking order
+  - Bull/bear times: stock market timing
+- Regarding changes in capital structure in the long run:
+  - In the long run, companies will have own target D/E ratio
+  - Consistent with trade-off theory
